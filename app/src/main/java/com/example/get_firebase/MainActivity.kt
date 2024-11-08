@@ -81,14 +81,14 @@ fun App(db: FirebaseFirestore) {
                 .fillMaxWidth(),
             Arrangement.Center
         ) {
-            Text(text = "Nickolas Maia de Araujo")
+            Text(text = "Gustavo Mendes Ventieri Mariano")
         }
         Row(
             Modifier
                 .fillMaxWidth(),
             Arrangement.Center
         ) {
-            Text(text = "3º DS AMS")
+            Text(text = "3° - Desenvolvimento de Sistemas AMS")
         }
 
         Row(
@@ -99,8 +99,8 @@ fun App(db: FirebaseFirestore) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = painterResource(R.drawable.arch_icon),
-                contentDescription = "Ícone da Distribuição Linux Arch Linux",
+                painter = painterResource(R.drawable.manjaro_logo_text),
+                contentDescription = "Manjaro, Distribuição Linux",
             )
         }
 
